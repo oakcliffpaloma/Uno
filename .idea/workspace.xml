@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6877eb8-f7a7-4e47-b085-7f734086bb06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/source.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AfterLunchExercise/AfterLunchExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CardDeck/CardDeck.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Crud/Crud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrequencyChanges/FrequencyChanges.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FullLengthMovieRelease/FullLengthMovieRelease.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewDrill1014/NewDrill1014.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewDrillProgram/NewDrillProgram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PrimeNumbers/PrimeNumbers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomWord/RandomWord.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RomanNumberals/RomanNumberals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../improvingcom/improvingcom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newJavaDrill/newJavaDrill.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../towerGame/towerGame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Colors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Faces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Faces.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Game.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/PlayerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/PlayerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Shuffle.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TKyAQ7kPNlPEcteq80bbVvQB3w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.improving.uno.App" />
+      <module name="uno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.improving.uno.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.improving.uno.Game" />
+      <module name="uno" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6877eb8-f7a7-4e47-b085-7f734086bb06" name="Default Changelist" comment="" />
+      <created>1573222937736</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573222937736</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
