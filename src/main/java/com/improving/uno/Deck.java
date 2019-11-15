@@ -6,6 +6,7 @@ public class Deck {
     private final LinkedList<Card> cards = new LinkedList<>();
     private final LinkedList<Card> discard = new LinkedList<>();
     private final Random random = new Random();
+
     public Deck(){
         for(var color : Colors.values()){
             for(var face : Faces.values()){
@@ -28,7 +29,7 @@ public class Deck {
         return card;
     }
     private void recycleDeck() {
-        System.out.println("\n.....REFEREE IS RECYCLING DECK.....\n");
+        System.out.println("\n.....REFEREE IS SHUFFLING DECK.....\n");
         var referee = getTopDiscardCard();
         discard.remove(getTopDiscardCard());
         cards.addAll(discard);

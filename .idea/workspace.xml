@@ -2,35 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6877eb8-f7a7-4e47-b085-7f734086bb06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/source.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AfterLunchExercise/AfterLunchExercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CardDeck/CardDeck.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Crud/Crud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FrequencyChanges/FrequencyChanges.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FullLengthMovieRelease/FullLengthMovieRelease.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewDrill1014/NewDrill1014.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../NewDrillProgram/NewDrillProgram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PrimeNumbers/PrimeNumbers.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RandomWord/RandomWord.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RomanNumberals/RomanNumberals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../improvingcom/improvingcom.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../newJavaDrill/newJavaDrill.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../towerGame/towerGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Colors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Colors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Faces.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Faces.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Hand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/PlayerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/PlayerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cards/Shuffle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improving/uno/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improving/uno/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/PlayerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/improving/uno/players/PlayerInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/improving/uno/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/improving/uno/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/improving/uno/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/improving/uno/Game.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +27,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -60,12 +39,16 @@
   <component name="ProjectId" id="1TKyAQ7kPNlPEcteq80bbVvQB3w" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.improving.uno" />
     </key>
   </component>
   <component name="RunDashboard">

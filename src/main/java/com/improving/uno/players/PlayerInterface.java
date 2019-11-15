@@ -7,7 +7,7 @@ public interface PlayerInterface {
 
     int handSize();
 
-    public Card draw(Game game);
+    Card draw(Game game);
 
-    public void takeTurn(Game game);
+    void takeTurn(Game game);
 }

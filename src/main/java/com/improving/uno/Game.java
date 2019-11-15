@@ -11,11 +11,19 @@ public class Game {
     private List<Player> players = new ArrayList<>();
     private Card card;
     private static int amountOfTurnsInGame = 0;
+    int numOfPlayers;
+    int turnOrder = 0;
+    int currentPlayer= 0;
+
+
     public Game() {
         this.deck = new Deck();
         this.players.add(new Player(deck, "Player1"));
         this.players.add(new Player(deck, "Player2"));
         this.players.add(new Player(deck, "Player3"));
+        numOfPlayers = players.size();
+
+
     }
     public void play() {
         deck.getDiscard().add(deck.draw());
@@ -27,33 +35,37 @@ public class Game {
         System.out.println(">>DISCARD pile size: " + deck.getDiscard().size() +" " +
                 "||  >>DRAW pile size: " + deck.getCards().size()+"\n");
         System.out.print("   ---------------------------\n");
+
         while (gameInProgress() == true) {
-            for (Player player : players) {
-                player.takeTurn(this);
+            if (turnOrder < 0) {
+                turnOrder = turnOrder + numOfPlayers;
+            }
+            currentPlayer = turnOrder % numOfPlayers;
+            players.get(turnOrder).takeTurn(this);
                 System.out.println(">>DISCARD pile size: "+deck.getDiscard().size() +" " +
                         "||  >>DRAW pile size: " + deck.getCards().size()+"\n");
                 amountOfTurnsInGame++;
-                player.handSize();
-                if (player.handSize() == 0){
+                //currentPlayer.handSize();
+                if (players.get(turnOrder).handSize() == 0){
                     System.out.println("Total Number of Turns: "+amountOfTurnsInGame);
                     break;
                 }
-            }
+            turnOrder++;
         }
-    }
+        }
     public boolean gameInProgress() {
         for (Player player : players) {
             if (player.handSize() == 0) {
-                printGOverNWinner();
+                printGameResults();
                 return false;
             }
         }
         return true;
     }
-    private void printGOverNWinner() {
+    private void printGameResults() {
         System.out.println(
                 "=====Game Over=====\n" + " "+
-                        winnerWinner() + " has won!");
+                        gameWinner() + " has won!");
     }
     public static boolean isPlayable(Deck deck, Card card) {
         if (deck.getTopDiscardCard().getColor() == card.getColor() ||
@@ -64,7 +76,7 @@ public class Game {
         }
         return false;
     }
-    public String winnerWinner() {
+    public String gameWinner() {
         for (Player player : players) {
             if (player.handSize() == 0) {
                 return player.getName();
@@ -81,6 +93,9 @@ public class Game {
     public List<Player> getPlayer() {
         return players;
     }
+
+    //add playcard method
+    //<optional>- .isPresent- only when playing a whild card, naming a color
 }
 
 

@@ -87,6 +87,7 @@ public class Player implements PlayerInterface {
         System.out.println(getName() + " drew a card and has FINISHED turn (" + ttc + "). ");
     }
 
+
     private void playCard(Deck deck, Card card) {
         deck.getDiscard().add(card);
         System.out.print("" + getName() + " played " + card+" ");
